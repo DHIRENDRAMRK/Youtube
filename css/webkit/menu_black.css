@@ -1,0 +1,95 @@
+@charset "UTF-8";
+/* Educate Blue Menu Stylesheet*/
+
+.menu_bg {
+ position: absolute;
+ top: 0px;
+ height: 39px;
+ width: 100%;
+ background-color: #000;
+ border-bottom: 1px solid #333333;
+}
+#menu {
+/* background-color:#17A8E5; */
+ float:left;
+ width:100%;
+ background:#000;
+ border-bottom:1px solid #333333;
+ overflow:hidden;
+ position:relative;
+ height: 39px;
+}
+#menu ul {
+   list-style:none;
+   margin:0;
+   padding:0;
+   position:relative;
+   left:50%;
+   text-align:center;
+}
+#menu ul li {
+   display:block;
+   float:left;
+   list-style:none;
+   margin:0;
+   padding:0;
+   position:relative;
+   right:50%;
+}
+#menu ul li a {
+   display:block;
+   padding:12px 10px 3px;
+   background:#000;
+   color:#FFFFFF;
+   text-decoration:none;
+   height: 36px;
+   font-weight: bold;
+   border-right: 1px solid #333333;
+}
+#menu ul li a:hover {
+   background:#000;
+   color:#FFFFFF;
+   text-decoration:none;
+   border-bottom: 4px solid #0F9;
+   height: 20px;
+}
+#menu ul li a:visited {
+   background:#000;
+   color:#FFFFFF;
+   text-decoration:none;
+}
+#menu ul li a.active,
+#menu ul li a.active:hover {
+   color:#FFFFFF;
+   background:#000;
+   font-weight:bold;
+}
+#menu ul li a.members,
+#menu ul li a.members:hover {
+   color:#FFFFFF;
+   background:#000;
+   font-weight:bold;
+   width: 120px;
+}
+#search_box {
+ background-color: #FFF;
+ width: 200px;
+ border: 0px;
+ height: 20px;
+ float: left;
+ margin: 8px 0px 0px 5px;
+ outline: none;
+}
+#search_button {
+float: left;
+margin: 0px;
+padding: 0px;	
+ background-color: #333333;
+ width: 20px;
+ height: 20px;
+ border: 0px;
+  margin: 8px 0px;
+  background-image:url(../../images/search_mag.png);
+  background-repeat:no-repeat;
+  background-position:center;
+}

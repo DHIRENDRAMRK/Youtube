@@ -1,0 +1,129 @@
+
+body {
+ margin: 0px;
+ padding: 0px;
+ font-family: Arial, Helvetica, sans-serif;
+ font-size: 12px;	
+ background-color: #FFFFFF;
+ height :100% ;
+}
+
+#wrapper {
+ width: 1000px;
+ background-color: #FFF;
+ min-height: 100px;
+ margin: 0px auto 0px auto;	
+}
+
+
+.welcomeDiv{
+	
+	background-color:#F1F1F1;
+	width:830px;
+	padding: 5px;
+	margin :0px auto 0px auto ;
+	border-bottom :1px solid #cccccc ;
+	float:left;
+	height: 250px;
+}
+
+
+.welcomeDiv h2 {
+	
+	font-family:Arial, Helvetica, Sans-serif ;
+	font-weight:200;
+	font-size: 20px; 
+	display:inline;
+	float:right;
+	padding-top:10px;
+		
+}
+
+h2{
+	font-weight: 200;
+	border-bottom: 1px solid #0F9;
+	
+}
+
+.channeloptions
+{
+background -color: #F1F1F1;
+width :200px;
+
+height:100%;
+border:1px solid #CCCCCC ;
+float:left;  
+
+}
+
+.channeloptions h2
+{
+	color:#333333;
+	text-decoration: none;
+	text-align:center;
+	border-bottom:none;
+	
+}
+
+
+.channeloptions img
+{
+	padding:0px auto 0px auto ;
+}
+
+.channelvideocontainer img
+{
+	 
+	padding:10px ;
+	
+	
+}
+
+
+
+.myvideosdiv
+{
+	
+	width: 900px ;
+	height: 140px ;
+	background-color: #FFF ;
+	border-bottom:1px solid #ccc;
+	
+	
+}
+.myvideosdiv:hover
+{
+	background-color: #F2F2F2 ;
+	
+}
+
+
+
+.myvideosdiv h2
+{
+	border-bottom:none;
+	padding-left:170px;
+}
+
+.myvideosdiv_desc
+{
+	width: 50%;
+	
+}
+
+
+
+.myvideosdiv_tags
+{
+	
+	width:100%;
+	padding-top:10px;
+	
+}
+
+
+
+
+
+
+
